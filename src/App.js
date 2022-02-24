@@ -9,7 +9,7 @@ function capitalizeFirstLetter(string) {
 function App() {
   const [currentCategory, changeCategory] = useState('animal');
   const [anotherOne, addAnotherOne] = useState(0)
-  const [joke, changeJoke] = useState('It is empty but will be gfillled somedayIt is empty but will be gfillled somedayIt is empty but will be gfillled somedayIt is empty but will be gfillled somedayIt is empty but will be gfillled somedayIt is empty but will be gfillled someday')
+  const [joke, changeJoke] = useState('Loading...')
   const handleClick = (e)=>{
     changeCategory(e.target.id);
   }
