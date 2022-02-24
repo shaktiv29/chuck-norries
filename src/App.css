@@ -28,6 +28,7 @@
     list-style: none;
     cursor: pointer;
     width: 70px;
+    border-radius: 5px;
 }
 
 .joke-sublist {
@@ -51,6 +52,10 @@
     margin: 10px auto;
     padding: 20px;
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 150px;
 }
 
 .blueBackground {
